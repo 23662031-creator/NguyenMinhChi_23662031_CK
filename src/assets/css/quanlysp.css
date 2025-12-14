@@ -1,0 +1,113 @@
+/* Container chính */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f7f8fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tiêu đề */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #e0f7fa;
+}
+
+/* Hình ảnh thumbnail */
+.thumb {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Nút */
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 5px;
+  transition: all 0.2s;
+}
+
+.btn.green {
+  background-color: #4caf50;
+  color: white;
+}
+.btn.green:hover {
+  background-color: #45a049;
+}
+
+.btn.yellow {
+  background-color: #ff9800;
+  color: white;
+}
+.btn.yellow:hover {
+  background-color: #fb8c00;
+}
+
+.btn.red {
+  background-color: #f44336;
+  color: white;
+}
+.btn.red:hover {
+  background-color: #e53935;
+}
+
+/* Form thêm/sửa sản phẩm */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+form button {
+  width: fit-content;
+}

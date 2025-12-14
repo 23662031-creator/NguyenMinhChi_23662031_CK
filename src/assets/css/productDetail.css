@@ -1,0 +1,112 @@
+.pd-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 15px;
+  font-family: Arial, sans-serif;
+}
+
+.pd-back-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.pd-card {
+  display: flex;
+  gap: 35px;
+  padding: 25px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+}
+
+/* IMAGE BOX */
+.pd-image-box {
+  flex: 1;
+  min-width: 350px;
+  max-width: 450px;
+  background: #f6f6f6;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pd-image-box img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* INFO */
+.pd-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.pd-info h1 {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.pd-rating {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.pd-price {
+  font-size: 2rem;
+  color: #e63946;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pd-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* BUTTONS */
+.pd-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.add-btn {
+  flex: 1;
+  background: #ff9800;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buy-btn {
+  flex: 1;
+  background: #e63946;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #fb8c00;
+}
+.buy-btn:hover {
+  background: #d62839;
+}
